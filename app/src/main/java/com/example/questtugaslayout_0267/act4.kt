@@ -92,5 +92,18 @@ fun MahasiswaCard(
                 )
             }
 
+            Spacer(modifier = Modifier.width(12.dp))
+
+            // Logo Kanan
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(65.dp)
+            )
+        }
+    }
+}
+
 
 }
