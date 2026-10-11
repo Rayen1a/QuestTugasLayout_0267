@@ -46,5 +46,24 @@ fun MahasiswaCard(
             containerColor = containerColor
         )
     ) {
+        Row(
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(12.dp),
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.SpaceBetween
+        ) {
+            val gambar = painterResource(R.drawable.logo_umy)
+
+            // Logo Kiri
+            Image(
+                painter = gambar,
+                contentDescription = null,
+                modifier = Modifier
+                    .size(65.dp)
+            )
+
+            Spacer(modifier = Modifier.width(12.dp))
+
 
 }
