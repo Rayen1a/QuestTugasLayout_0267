@@ -65,5 +65,9 @@ fun MahasiswaCard(
 
             Spacer(modifier = Modifier.width(12.dp))
 
+            // Teks Informasi Mahasiswa
+            Column(
+                modifier = Modifier.weight(1f)
+            ) {
 
 }
