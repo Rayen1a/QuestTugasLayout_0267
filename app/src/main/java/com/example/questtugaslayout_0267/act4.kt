@@ -114,6 +114,18 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             .verticalScroll(rememberScrollState()),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Text(
+            text = stringResource(R.string.prodi),
+            fontSize = 30.sp,
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            text = stringResource(R.string.univ),
+            fontSize = 16.sp
+        )
+
+        Spacer(modifier = Modifier.height(20.dp))
+
 
     }
 }
