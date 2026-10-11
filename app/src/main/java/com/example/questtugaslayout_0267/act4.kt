@@ -154,6 +154,8 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             alamat = stringResource(R.string.mhs4_alamat)
         )
 
+        Spacer(modifier = Modifier.height(30.dp))
+
 
     }
 }
