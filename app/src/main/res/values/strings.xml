@@ -4,3 +4,7 @@
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
     <string name="copy">Copyright, 2026</string>
 
+    <!-- Data Mahasiswa 1 -->
+    <string name="mhs1_nama">Raihan Alfakhri Putra Ramadhan</string>
+    <string name="mhs1_alamat">Karawang Timur, Karawang</string>
+
