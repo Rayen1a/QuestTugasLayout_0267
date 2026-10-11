@@ -126,6 +126,20 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(20.dp))
 
+        // Pemanggilan Card menggunakan fungsi reusable dengan berbagai warna dari resources
+        MahasiswaCard(
+            containerColor = colorResource(R.color.card_gray),
+            nama = stringResource(R.string.mhs1_nama),
+            alamat = stringResource(R.string.mhs1_alamat)
+        )
+
+        MahasiswaCard(
+            containerColor = colorResource(R.color.card_purple),
+            nama = stringResource(R.string.mhs2_nama),
+            telepon = stringResource(R.string.mhs2_telp),
+            alamat = stringResource(R.string.mhs2_alamat)
+        )
+
 
     }
 }
