@@ -156,6 +156,9 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
 
         Spacer(modifier = Modifier.height(30.dp))
 
-
+        Text(
+            text = stringResource(R.string.copy),
+            modifier = Modifier.padding(bottom = 30.dp)
+        )
     }
 }
