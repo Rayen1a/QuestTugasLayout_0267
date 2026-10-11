@@ -29,3 +29,14 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
+// 2. Komponen Card dibuat dalam 1 fungsi yang berbeda (Reusable Widget)
+@Composable
+fun MahasiswaCard(
+    containerColor: Color,
+    nama: String,
+    alamat: String,
+    telepon: String? = null,
+    modifier: Modifier = Modifier
+) {
+
+}
