@@ -69,5 +69,13 @@ fun MahasiswaCard(
             Column(
                 modifier = Modifier.weight(1f)
             ) {
+                Text(
+                    text = nama,
+                    fontSize = 22.sp,
+                    fontFamily = FontFamily.Cursive,
+                    fontWeight = FontWeight.Bold,
+                    color = Color.White
+                )
+
 
 }
