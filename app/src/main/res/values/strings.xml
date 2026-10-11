@@ -18,3 +18,8 @@
     <string name="mhs3_telp">085936875192</string>
     <string name="mhs3_alamat">Jakarta Utara, Jakarta</string>
 
+    <!-- Data Mahasiswa 4 -->
+    <string name="mhs4_nama">Clara Muliasa</string>
+    <string name="mhs4_telp">087446884193</string>
+    <string name="mhs4_alamat">Bandung, Jawa Barat</string>
+</resources>
