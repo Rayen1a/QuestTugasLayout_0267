@@ -85,5 +85,12 @@ fun MahasiswaCard(
                     )
                 }
 
+                Text(
+                    text = alamat,
+                    fontSize = 14.sp,
+                    color = colorResource(R.color.text_yellow)
+                )
+            }
+
 
 }
