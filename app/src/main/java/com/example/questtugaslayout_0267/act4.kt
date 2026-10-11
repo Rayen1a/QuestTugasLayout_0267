@@ -77,5 +77,13 @@ fun MahasiswaCard(
                     color = Color.White
                 )
 
+                if (!telepon.isNullOrEmpty()) {
+                    Text(
+                        text = telepon,
+                        fontSize = 14.sp,
+                        color = colorResource(R.color.teal_200)
+                    )
+                }
+
 
 }
