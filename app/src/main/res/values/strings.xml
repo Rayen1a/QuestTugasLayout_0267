@@ -8,3 +8,8 @@
     <string name="mhs1_nama">Raihan Alfakhri Putra Ramadhan</string>
     <string name="mhs1_alamat">Karawang Timur, Karawang</string>
 
+    <!-- Data Mahasiswa 2 -->
+    <string name="mhs2_nama">Maulana</string>
+    <string name="mhs2_telp">085436374193</string>
+    <string name="mhs2_alamat">Bekasi, Jawa Barat</string>
+
